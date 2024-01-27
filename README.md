@@ -6,7 +6,7 @@
   - Displays information about PowerShell commands and concepts.
 
  - Syntax: 
-   Get-Help [Cmdlet]
+   ```Get-Help [Cmdlet]```
    
  - Example: 
 ```powershell
@@ -20,7 +20,7 @@
  - Installs one or more roles, role services, or features on either the local or a specified remote server that is running Windows Server.
  
  - Syntax: 
-   Install-WindowsFeature -Name [Feature/Role Name] -IncludeManagementTools
+   ```Install-WindowsFeature -Name [Feature/Role Name] -IncludeManagementTools```
    
  - Example: 
 ```powershell
@@ -30,7 +30,7 @@
  - Adds modules to the current session.
  
  - Syntax: 
-   Import-Module [ModuleName]
+   ```Import-Module [ModuleName]```
    
  - Example: 
 ```powershell
